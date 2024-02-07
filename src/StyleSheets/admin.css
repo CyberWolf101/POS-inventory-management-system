@@ -1,0 +1,70 @@
+:root {
+    --primary: #2F855A;
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --light: #f3f4f5;
+    --lighter: #f7f8fa;
+}
+
+.nav-link {
+    margin: 25px 0px;
+    transition: 1s;
+}
+
+.nav-link .active {
+    /* margin: 19px 0px; */
+    transition: 1s;
+    transform: scale(1.1);
+    transition: 1s;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.nav-link:hover {
+    transition: 1s;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+.nav-btn:hover {
+    transition: 1s;
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+.offcanvas-backdrop {
+    background-color: transparent;
+    display: none;
+}
+
+/* .root-layout {
+    height: 100dvh;
+    overflow-y: scroll;
+} */
+
+.sidebar {
+    background-color: var(--primary);
+}
+
+
+
+/* _______subscription card____ */
+.subscription-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.active-status {
+    position: absolute;
+    top: 1px;
+    left: -8px;
+    transform: rotate(-20deg);
+
+}
+
+.active-status button {
+    border-bottom-right-radius: 2px;
+    font-weight: 600;
+
+}

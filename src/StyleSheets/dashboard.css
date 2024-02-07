@@ -1,0 +1,41 @@
+.admin_cards_div {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    letter-spacing: 0.7px;
+    grid-gap: 10px;
+}
+
+.admin_cards_div .card {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+
+
+
+
+/* ____RESPONSIVE____ */
+@media screen and (min-width: 650px) {
+    .bars {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+
+
+
+
+
+
+
+
