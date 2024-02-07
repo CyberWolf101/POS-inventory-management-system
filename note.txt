@@ -1,0 +1,1 @@
+npm create vite@latest, then chose react, then js --> npm install --> npm run dev
